@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- @todo ${1:To do text} -->
+]]></content>
+	<tabTrigger>h-td</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer To do (HTML)</description>
+</snippet>

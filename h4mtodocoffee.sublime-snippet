@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+# @todo ${1:To do text}
+]]></content>
+	<tabTrigger>h-td</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Hammer To do (JS)</description>
+</snippet>

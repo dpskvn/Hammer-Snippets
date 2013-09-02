@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- @stylesheet ${1:filename} -->
+]]></content>
+	<tabTrigger>h-st</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer Stylesheet Include</description>
+</snippet>

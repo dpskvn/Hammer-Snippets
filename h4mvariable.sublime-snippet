@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- \$${1:name} ${2:value} -->
+]]></content>
+	<tabTrigger>h-var</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer Variable</description>
+</snippet>

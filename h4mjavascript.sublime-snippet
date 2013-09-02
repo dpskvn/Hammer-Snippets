@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- @javascript ${1:filename} -->
+]]></content>
+	<tabTrigger>h-js</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer JavaScript Include</description>
+</snippet>

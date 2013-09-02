@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- @reload -->
+]]></content>
+	<tabTrigger>h-rel</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer Automatic Reload</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- @placeholder ${1:400x300} ${2:Text} -->
+]]></content>
+	<tabTrigger>h-img</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer Image Placeholder</description>
+</snippet>
