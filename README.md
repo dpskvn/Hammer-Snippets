@@ -9,7 +9,10 @@ A small collection of useful [Sublime Text](http://www.sublimetext.com/) snippet
 
 ### Via Package Control
 
-Not available yet.
+1. Install [Package Control](http://wbond.net/sublime_packages/package_control)
+2. Hit `⌘+⇧+P` to open the Command Palette
+3. Look for Package Control: Install Package and hit `↵`
+4. Search for `Hammer for Mac Snippets` and hit `↵`
 
 ### Manual
 
@@ -19,39 +22,26 @@ Navigate to your Packages directory and clone this repository:
 
 ## Usage
 
-<table>
-	<tr>
-		<td>Snippet</td>
-		<td>Trigger</td>
-	</tr>
-	<tr>
-		<td>HTML Include</td>
-		<td>h-inc</td>
-	</tr>
-	<tr>
-		<td>JavaScript Link</td>
-		<td>h-js</td>
-	</tr>
-	<tr>
-		<td>Smart Path</td>
-		<td>h-path</td>
-	</tr>
-	<tr>
-		<td>Image Placeholder</td>
-		<td>h-img</td>
-	</tr>
-	<tr>
-		<td>Automatic Reload</td>
-		<td>h-rel</td>
-	</tr>
-	<tr>
-		<td>To do (*)</td>
-		<td>h-td</td>
-	</tr>
-	<tr>
-		<td>Variable</td>
-		<td>h-var</td>
-	</tr>
-</table>
+Just type one of the triggers and hit `TAB` inside the editor.
 
-(*) Works in HTML, CSS, SCSS, JavaScript and CoffeeScript
+| Snippet           | Trigger | Output                               |
+|-------------------|:-------:|:------------------------------------:|
+| HTML Include      | h-inc   | `<!-- @include filename -->`         |
+| JavaScript Link   | h-js    | `<!-- @javascript filename -->`      |
+| Smart Path        | h-pa    | `<!-- @path filename -->`            |
+| Automatic Reload  | h-rel   | `<!-- @reload -->`                   |
+| Image Placeholder | h-img   | `<!-- @placeholder 300x400 Text -->` |
+| Variable          | h-var   | `<!-- $name value -->`               |
+| To do             | h-td    | `<!-- @todo To Do Text -->` __(*)__  |
+
+__(*)__ Output varies for each language (HTML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.
+
+
+## Contributions
+
+Feel free to fork this repository, fiddle with things and send pull requests.
+
+
+## License
+
+This plugin is licensed under the [MIT license](https://raw.github.com/DinoPaskvan/Hammer-Snippets/master/LICENSE).
