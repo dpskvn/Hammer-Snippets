@@ -24,15 +24,20 @@ Navigate to your Packages directory and clone this repository:
 
 Just type one of the triggers and hit `TAB` inside the editor.
 
-| Snippet           | Trigger | Output                               |
-|-------------------|:-------:|:------------------------------------:|
-| HTML Include      | h-inc   | `<!-- @include filename -->`         |
-| JavaScript Link   | h-js    | `<!-- @javascript filename -->`      |
-| Smart Path        | h-pa    | `<!-- @path filename -->`            |
-| Automatic Reload  | h-rel   | `<!-- @reload -->`                   |
-| Image Placeholder | h-img   | `<!-- @placeholder 300x400 Text -->` |
-| Variable          | h-var   | `<!-- $name value -->`               |
-| To do             | h-td    | `<!-- @todo To Do Text -->` __(*)__  |
+| Snippet                  | Trigger | Output                               |
+|--------------------------|:-------:|:------------------------------------:|
+| HTML Include             | h-inc   | `<!-- @include filename -->`         |
+| JavaScript Link (file)   | h-js    | `<!-- @javascript filename -->`      |
+| JavaScript Link (folder) | h-jsf   | `<!-- @javascript path/to/js/* -->`  |
+| Stylesheet Link (file)   | h-st    | `<!-- @javascript filename -->`      |
+| Stylesheet Link (folder) | h-stf   | `<!-- @javascript path/to/css/* -->` |
+| Smart Path               | h-pa    | `<!-- @path filename -->`            |
+| Automatic Reload         | h-rel   | `<!-- @reload -->`                   |
+| Image Placeholder        | h-img   | `<!-- @placeholder 300x400 Text -->` |
+| Variable                 | h-var   | `<!-- $name value -->`               |
+| Variable (Default Value) | h-vard  | `<!-- $name | Default Value -->`     |
+| To do                    | h-td    | `<!-- @todo To Do Text -->` __(*)__  |
+| 404 Fix                  | h-404   | `<base href="/">`                    |
 
 __(*)__ Output varies for each language (HTML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.
 
