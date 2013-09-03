@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<base href="/">]]></content>
+	<tabTrigger>h-404</tabTrigger>
+	<scope>text.html</scope>
+	<description>Hammer 404 Page Fix</description>
+</snippet>
