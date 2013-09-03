@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<!-- @include ${1:filename} -->]]></content>
+	<content><![CDATA[<!-- @include _${1:filename} -->]]></content>
 	<tabTrigger>h-inc</tabTrigger>
 	<scope>text.html</scope>
 	<description>Hammer HTML Include</description>
