@@ -24,23 +24,23 @@ Navigate to your Packages directory and clone this repository:
 
 Just type one of the triggers and hit `TAB` inside the editor.
 
-| Snippet                  | Trigger | Output                               |
-|--------------------------|:-------:|:------------------------------------:|
-| HTML Include             | h-inc   | `<!-- @include filename -->`         |
-| JavaScript Link (file)   | h-js    | `<!-- @javascript filename -->`      |
-| JavaScript Link (folder) | h-jsf   | `<!-- @javascript path/to/js/* -->`  |
-| Stylesheet Link (file)   | h-st    | `<!-- @javascript filename -->`      |
-| Stylesheet Link (folder) | h-stf   | `<!-- @javascript path/to/css/* -->` |
-| Smart Path               | h-pa    | `<!-- @path filename -->`            |
-| Automatic Reload         | h-rel   | `<!-- @reload -->`                   |
-| Image Placeholder        | h-img   | `<!-- @placeholder 300x400 Text -->` |
-| Variable                 | h-var   | `<!-- $name value -->`               |
-| Variable (Default Value) | h-vard  | `<!-- $name | Default Value -->`     |
-| To do                    | h-td    | `<!-- @todo To Do Text -->` __(*)__  |
-| 404 Fix                  | h-404   | `<base href="/">`                    |
+| Snippet                  | Trigger | Output                                        |
+|--------------------------|:-------:|:---------------------------------------------:|
+| 404 Fix                  | h-404   | `<base href="/">`                             |
+| Automatic Reload         | h-rel   | `<!-- @reload -->`                            |
+| HTML Include             | h-inc   | `<!-- @include filename -->`                  |
+| Image Placeholder        | h-img   | `<!-- @placeholder 300x400 Text -->`          |
+| JavaScript Link (file)   | h-js    | `<!-- @javascript filename -->`               |
+| JavaScript Link (folder) | h-jsf   | `<!-- @javascript path/to/js/* -->`           |
+| Smart Path               | h-pa    | `<!-- @path filename -->`                     |
+| Stylesheet Link (file)   | h-st    | `<!-- @javascript filename -->`               |
+| Stylesheet Link (folder) | h-stf   | `<!-- @javascript path/to/css/* -->`          |
+| To do                    | h-td    | `<!-- @todo To Do Text -->` __(1)__           |
+| Variable                 | h-var   | `<!-- $name value -->`                        |
+| Variable (Default Value) | h-vard  | `<!-- $name [pipe] Default Value -->` __(2)__ |
 
-__(*)__ Output varies for each language (HTML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.
-
+__(1)__ Output varies for each language (HTML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.   
+__(2)__ The `|` character breaks the table syntax and cannot be escaped. The actual output is: `<!-- $name | Default Value -->`
 
 ## Contributions
 
