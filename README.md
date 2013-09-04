@@ -9,7 +9,7 @@ A small collection of useful [Sublime Text](http://www.sublimetext.com/) snippet
 
 ### Via Package Control
 
-1. Install [Package Control](http://wbond.net/sublime_packages/package_control)
+1. Install [Package Control](https://sublime.wbond.net/)
 2. Hit `⌘+⇧+P` to open the Command Palette
 3. Look for Package Control: Install Package and hit `↵`
 4. Search for `Hammer for Mac Snippets` and hit `↵`
@@ -33,8 +33,8 @@ Just type one of the triggers and hit `TAB` inside the editor.
 | JavaScript Link (file)   | h-js    | `<!-- @javascript filename -->`               |
 | JavaScript Link (folder) | h-jsf   | `<!-- @javascript path/to/js/* -->`           |
 | Smart Path               | h-pa    | `<!-- @path filename -->`                     |
-| Stylesheet Link (file)   | h-st    | `<!-- @javascript filename -->`               |
-| Stylesheet Link (folder) | h-stf   | `<!-- @javascript path/to/css/* -->`          |
+| Stylesheet Link (file)   | h-st    | `<!-- @stylesheet filename -->`               |
+| Stylesheet Link (folder) | h-stf   | `<!-- @stylesheet path/to/css/* -->`          |
 | To do                    | h-td    | `<!-- @todo To Do Text -->` __(1)__           |
 | Variable                 | h-var   | `<!-- $name value -->`                        |
 | Variable (Default Value) | h-vard  | `<!-- $name [pipe] Default Value -->` __(2)__ |
