@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<!-- @javascript ${1:path/to/js/*} -->
+<!-- @javascript ${1:path/to/js}/* -->
 ]]></content>
 	<tabTrigger>h-jsf</tabTrigger>
 	<scope>text.html</scope>
