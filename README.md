@@ -39,7 +39,7 @@ Just type one of the triggers and hit `TAB` inside the editor.
 | Variable                 | h-var   | `<!-- $name value -->`                        |
 | Variable (Default Value) | h-vard  | `<!-- $name [pipe] Default Value -->` __(2)__ |
 
-__(1)__ Output varies for each language (HTML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.   
+__(1)__ Output varies for each language (HTML, HAML, CSS, SCSS, CoffeeScript, JavaScript). Table shows HTML output.   
 __(2)__ The `|` character breaks the table syntax and cannot be escaped. The actual output is: `<!-- $name | Default Value -->`
 
 ## Contributions
