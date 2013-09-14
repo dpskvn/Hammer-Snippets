@@ -3,6 +3,6 @@
 / @todo ${1:To do text}
 ]]></content>
 	<tabTrigger>h-td</tabTrigger>
-	<scope>source.haml</scope>
+	<scope>text.haml</scope>
 	<description>Hammer To do (HAML)</description>
 </snippet>
